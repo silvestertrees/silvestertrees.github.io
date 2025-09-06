@@ -1,0 +1,21 @@
+baseURL = "https://silvestertrees.github.io/" # 替换成你的网址
+languageCode = "zh-cn" # 语言设置为中文
+title = "尤里卡英语" # 替换成你的网站标题
+theme = "PaperMod"
+
+[params]
+  defaultTheme = "light" # 默认主题为浅色
+  ShowShareButtons = false # 不显示分享按钮
+  ShowReadingTime = true # 显示阅读时间
+
+[menu]
+  [[menu.main]]
+    identifier = "archives"
+    name = "归档"
+    url = "/archives/"
+    weight = 10
+  [[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 20
